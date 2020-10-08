@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    background-size:auto;
+    background-image: url(https://w-dog.ru/wallpapers/12/9/455651903076767.jpg);
+    padding: 15px 0;
+}
+h1{
+    font-family: 'Peddana', serif;
+
+}
+.aaa{
+    color: whitesmoke;
+
+}
+.backgroundCover{
+    background: linear-gradient(to bottom, #333, #333 30%, #990000 85%);
+    box-shadow: -5px 5px 20px #000000;
+    margin-top: 10px;
+}
+.box{
+    /*text-align: center;*/
+}
+.imgReturn{
+    width: 180px;
+    height: 280px;
+    margin-top: 25px;
+}
+.editButton{
+    margin-top: 15px;
+}
+.borderOnClick{
+    outline: 2px inset #990000
+}
+.marginList{
+    padding-left: 40px;
+}
+.modeButton{
+    margin: 30px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and (max-width: 992px) {
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
