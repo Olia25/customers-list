@@ -16,6 +16,9 @@ h1{
     background: linear-gradient(to bottom, #333, #333 30%, #990000 85%);
     box-shadow: -5px 5px 20px #000000;
     margin-top: 10px;
+
+    position: sticky;
+    top: 20px;
 }
 .box{
     /*text-align: center;*/
